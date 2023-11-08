@@ -1,0 +1,74 @@
+tr:first-child {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  td, th {
+    padding: 10px;
+    text-align: start;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  tr{
+    transition: all 0.3s ease-in-out;
+  }
+  tr:nth-child(1) {
+    text-decoration-color: blue;
+  }
+  
+  tr:nth-child(odd):not(:first-child) {
+    background-color: #cccfcd;
+  }
+  
+  tr:not(:first-child):hover {
+    background-color: #e6e8e7;
+  }
+
+  .twitter{
+    background-color: #1A8CD8;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+
+  .youtube{
+    background-color: #CC0000;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+  
+.facebook{
+    background-color: #043d61;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    text-decoration: none;
+    transform: scale (1.1)
+}
+
+  a{
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .Twitter:hover {
+    background-color: #1A8CD8;
+  }
+  .Facebook:hover {
+    background-color:#23A6F5;
+  }
+  .Youtube:hover {
+    background-color: #CC0000;
+  }
+  td:hover{
+    transform: scale(1.1);
+ }
